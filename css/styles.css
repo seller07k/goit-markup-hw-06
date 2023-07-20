@@ -194,7 +194,7 @@ img {
 .button-main:focus {
   background-color: var(--active-link-color);
 }
-.title-ht {
+.visually-hidden .title-ht {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
