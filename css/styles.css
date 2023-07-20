@@ -230,6 +230,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--primary-black-color);
+  margin-bottom: 72px;
 }
 .address {
   font-style: normal;
@@ -290,4 +291,14 @@ img {
 }
 .section-one {
   padding: 120px 0;
+}
+.section-two {
+  padding-bottom: 120px;
+}
+.teerax {
+  display: flex;
+  gap: 24px;
+}
+.imgin {
+  width: calc((100% - 48px) / 3);
 }
