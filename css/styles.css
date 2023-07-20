@@ -247,6 +247,7 @@ img {
 }
 .sec-four {
   background-color: var(--secondary-white-color);
+  padding: 120px 0;
 }
 .title-htt {
   font-size: 36px;
@@ -255,7 +256,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--primary-black-color);
-}
+  margin-bottom: 72px;
 .img-main {
   background-color: var(--primary-white-color);
 }
@@ -296,6 +297,10 @@ img {
   padding-bottom: 120px;
 }
 .teerax {
+  display: flex;
+  gap: 24px;
+}
+.teersx{
   display: flex;
   gap: 24px;
 }
