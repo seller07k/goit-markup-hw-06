@@ -28,6 +28,10 @@ img {
   justify-content: center;
   align-items: center;
 }
+.about {
+  display: flex;
+  gap: 24px;
+}
 .header {
   border-bottom: 1px solid var(--third-white-color);
 }
@@ -52,7 +56,7 @@ img {
 .list {
   list-style: none;
 }
-.ad {
+.adw {
   display: flex;
   gap: 40px;
 }
@@ -244,6 +248,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-black-color);
+  width: calc((100% - 72px) / 4);
 }
 .title-h-four {
   font-size: 36px;
@@ -266,4 +271,7 @@ img {
 }
 .section {
   padding: 188px 0;
+}
+.section-one {
+  padding: 120px 0;
 }
