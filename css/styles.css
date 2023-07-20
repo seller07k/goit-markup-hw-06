@@ -9,9 +9,25 @@ body {
   --primary-black-color: #2e2f42;
   --primary-white-color: #ffffff;
   --secondary-white-color: #f4f4fd;
+  --third-white-color: #e7e9fc;
   --primary-accent-color: #4d5ae5;
   --secondary-accent-color: #434455;
   --active-link-color: #404bbf;
+}
+.container {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  border-bottom: 1px solid var(--third-white-color);
+}
+.menu {
+  display: flex;
+  align-items: center;
 }
 .logo {
   font-family: var(--title-font);
@@ -22,6 +38,7 @@ body {
   text-transform: uppercase;
   color: var(--primary-accent-color);
   text-decoration: none;
+  padding: 24px 0;
 }
 .logoback-port {
   color: var(--primary-black-color);
@@ -45,6 +62,8 @@ body {
 }
 .communication {
   font-style: normal;
+  display: flex;
+  gap: 40px;
 }
 .maill {
   font-size: 16px;
@@ -75,6 +94,7 @@ body {
   color: var(--primary-accent-color);
   background-color: var(--secondary-white-color);
   cursor: pointer;
+  flex-grow: 1;
 }
 .main:hover,
 .main:focus {
@@ -114,6 +134,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-accent-color);
+  margin-right: 76px;
 }
 .menu-main {
   font-weight: 500;
@@ -121,6 +142,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-black-color);
+  display: flex;
+  gap: 40px;
 }
 .menu-main:hover,
 .menu-main:focus {
