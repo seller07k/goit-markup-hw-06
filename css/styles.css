@@ -56,6 +56,9 @@ img {
 .list {
   list-style: none;
 }
+.teerex {
+  width: calc((100% - 72px) / 4);
+}
 .adw {
   display: flex;
   gap: 40px;
@@ -261,7 +264,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-black-color);
-  width: calc((100% - 72px) / 4);
+  margin-bottom: 8px;
 }
 .title-h-four {
   font-size: 36px;
