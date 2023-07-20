@@ -17,6 +17,9 @@ body {
 *{
   box-sizing: border-box;
 }
+img {
+  display: block;
+}
   display: flex;
   width: 1158px;
   margin: 0 auto;
