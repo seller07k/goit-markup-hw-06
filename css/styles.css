@@ -153,6 +153,18 @@ img {
   color: var(--primary-accent-color);
   margin-right: 76px;
 }
+.logo-main-footer {
+  font-family: var(--title-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-accent-color);
+  margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
+}
 .menu-main {
   font-weight: 500;
   font-size: 16px;
@@ -280,6 +292,7 @@ img {
 }
 .footer {
   background-color: var(--primary-black-color);
+  padding: 100px 0;
 }
 .logo-back {
   color: var(--secondary-white-color);
@@ -288,6 +301,7 @@ img {
   line-height: 1.5;
   color: var(--secondary-white-color);
   letter-spacing: 0.02em;
+  min-width: 264px;
 }
 .section {
   padding: 188px 0;
