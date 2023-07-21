@@ -323,9 +323,11 @@ img {
   padding-bottom: 120px;
 }
 .teerex {
+  width: calc((100% - 72px) / 4);
+}
+.about {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
 }
 .teersx{
   display: flex;
