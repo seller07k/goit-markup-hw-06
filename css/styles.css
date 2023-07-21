@@ -322,9 +322,10 @@ img {
 .section-two {
   padding-bottom: 120px;
 }
-.teerax {
+.teerex {
   display: flex;
   gap: 24px;
+  width: calc((100% - 72px) / 4);
 }
 .teersx{
   display: flex;
