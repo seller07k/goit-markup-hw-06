@@ -150,6 +150,7 @@ p {
 }
 .bottom {
   background-color: var(--primary-black-color);
+  padding: 100px 0;
 }
 .logoback {
   color: var(--secondary-white-color);
@@ -379,5 +380,6 @@ p {
   line-height: 1.5;
   color: var(--secondary-white-color);
   letter-spacing: 0.02em;
-  min-width: 264px;
+  max-width: 264px;
+  margin: 0 auto;
 }
