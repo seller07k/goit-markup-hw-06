@@ -28,10 +28,6 @@ img {
   justify-content: center;
   align-items: center;
 }
-.about {
-  display: flex;
-  gap: 24px;
-}
 .header {
   border-bottom: 1px solid var(--third-white-color);
 }
@@ -314,10 +310,10 @@ img {
   min-width: 264px;
 }
 .section {
-  padding-top: 188px; та padding-bottom: 188px;
+  padding: 188px 0;
 }
 .section-one {
-  padding-top: 120px; та padding-bottom: 120px;
+  padding-top: 120px 0;
 }
 .section-two {
   padding-bottom: 120px;
@@ -350,7 +346,6 @@ img {
   row-gap: 48px;
 }
 .imgiv {
-  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 .workers {
@@ -360,7 +355,4 @@ img {
   padding: 32px 16px;
   border: 1px solid var(--third-white-color);
   border-top: none;
-}
-.imgthird {
-  width: calc((100% - 48px) / 3);
 }
