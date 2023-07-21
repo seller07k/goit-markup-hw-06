@@ -132,6 +132,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-black-color);
+  margin-bottom: 8px;
 }
 .text {
   font-size: 16px;
@@ -349,4 +350,9 @@ img {
 }
 .workers {
   padding: 32px 0;
+}
+.case-one {
+  padding: 32px 16px;
+  border: 1px solid var(--third-white-color);
+  border-top: none;
 }
