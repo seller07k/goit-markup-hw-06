@@ -22,8 +22,20 @@ body {
 img {
   display: block;
 }
+ul,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
 .header {
   border-bottom: 1px solid var(--third-white-color);
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .menu {
   display: flex;
