@@ -331,7 +331,7 @@ img {
   display: flex;
   gap: 24px;
 }
-.teeredx {
+.teeredsx {
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -342,9 +342,6 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-}
-.imgin {
-  width: calc((100% - 48px) / 3);
 }
 .imgiv {
   width: calc((100% - 72px) / 4);
