@@ -136,14 +136,35 @@ body {
   color: var(--primary-accent-color);
   margin-right: 76px;
 }
+.write {
+  display: flex;
+  gap: 40px;
+}
+.write-two {
+  display: flex;
+  gap: 40px;
+}
+.write-thri {
+  display: flex;
+  gap: 24px;
+}
+.write-four {
+  width: calc((100% - 72px) / 4);
+}
+.write-five {
+  display: flex;
+  gap: 24px;
+}
+.write-six {
+  width: calc((100% - 48px) / 3);
+}
 .menu-main {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-black-color);
-  display: flex;
-  gap: 40px;
+  padding: 24px 0;
 }
 .menu-main:hover,
 .menu-main:focus {
@@ -151,6 +172,7 @@ body {
 }
 .title-main-pa {
   background-color: var(--primary-black-color);
+  padding: 188px 0;
 }
 .title-h {
   font-size: 56px;
@@ -158,6 +180,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--primary-white-color);
+  max-width: 496px;
 }
 .button-main {
   background-color: var(--primary-accent-color);
@@ -168,12 +191,36 @@ body {
   letter-spacing: 0.04em;
   color: var(--primary-white-color);
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+}
+.sec-two {
+  padding: 120px 0;
+}
+.sec-thri {
+  padding-bottom: 120px;
 }
 .button-main:hover,
 .button-main:focus {
   background-color: var(--active-link-color);
 }
-.title-ht {
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -193,6 +240,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--primary-black-color);
+  margin-bottom: 72px;
 }
 .address {
   font-style: normal;
@@ -227,6 +275,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-black-color);
+  margin-bottom: 8px;
 }
 .title-h-four {
   font-size: 36px;
