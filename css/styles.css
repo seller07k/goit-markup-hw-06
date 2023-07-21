@@ -358,3 +358,6 @@ img {
   border: 1px solid var(--third-white-color);
   border-top: none;
 }
+.imgthird {
+  width: calc((100% - 72px) / 4);
+}
