@@ -186,6 +186,7 @@ p {
 .write-two {
   display: flex;
   gap: 40px;
+  margin-left: 332px;
 }
 .write-thri {
   display: flex;
@@ -250,6 +251,8 @@ p {
   letter-spacing: 0.02em;
   color: var(--primary-white-color);
   max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 .button-main {
   background-color: var(--primary-accent-color);
