@@ -398,6 +398,11 @@ p {
   text-transform: capitalize;
 }
 .sec-five {
-  padding-top: 120px;
-  padding-bottom: 280px;
+  height: 440px;
+}
+.write-ele {
+  display: flex;
+}
+.svg-five {
+  display: flex;
 }
