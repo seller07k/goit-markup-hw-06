@@ -375,7 +375,7 @@ p {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-black-color);
-  margin-bottom: 8px;
+  padding-bottom: 8px;
 }
 .title-work-tree {
   font-weight: 500;
@@ -435,4 +435,6 @@ p {
 }
 .text-two-sec {
   justify-content: flex-start;
+}
+.svg-two {
 }
