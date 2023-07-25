@@ -386,23 +386,3 @@ p {
   max-width: 264px;
   margin-right: 156px;
 }
-.text-five-sec {
-  color: var(--primary-black-color);
-  text-align: center;
-  font-family: Roboto;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.72px;
-  text-transform: capitalize;
-}
-.sec-five {
-  height: 440px;
-}
-.write-ele {
-  display: flex;
-}
-.svg-five {
-  display: flex;
-}
