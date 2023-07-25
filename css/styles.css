@@ -322,8 +322,13 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-accent-color);
+}
+.text-main-two {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-accent-color);
   text-align: center;
-  justify-content: flex-start;
 }
 .title-ht-t {
   font-size: 36px;
@@ -371,8 +376,15 @@ p {
   letter-spacing: 0.02em;
   color: var(--primary-black-color);
   margin-bottom: 8px;
+}
+.title-work-tree {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-black-color);
+  margin-bottom: 8px;
   text-align: center;
-  justify-content: flex-start;
 }
 .title-h-four {
   font-size: 36px;
@@ -420,4 +432,7 @@ p {
 }
 .main-svg {
   fill: var(--secondary-white-color);
+}
+.text-two-sec {
+  justify-content: flex-start;
 }
