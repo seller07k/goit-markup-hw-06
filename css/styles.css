@@ -254,9 +254,7 @@ p {
     url(../images/office.jpg);
   background-position: center;
   background-size: cover;
-  max-width: 1440px;
   background-repeat: no-repeat;
-  background-position: center;
 }
 .title-h {
   font-size: 56px;
@@ -395,4 +393,8 @@ p {
   letter-spacing: 0.02em;
   max-width: 264px;
   margin-right: 156px;
+}
+.sec-five {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
