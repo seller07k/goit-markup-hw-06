@@ -323,6 +323,7 @@ p {
   letter-spacing: 0.02em;
   color: var(--secondary-accent-color);
   text-align: center;
+  justify-content: flex-start;
 }
 .title-ht-t {
   font-size: 36px;
@@ -371,6 +372,7 @@ p {
   color: var(--primary-black-color);
   margin-bottom: 8px;
   text-align: center;
+  justify-content: flex-start;
 }
 .title-h-four {
   font-size: 36px;
@@ -397,4 +399,25 @@ p {
 .sec-five {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+.svg-four {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.svg-first {
+  width: 40px;
+  height: 40px;
+}
+.main-web {
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-accent-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-svg {
+  fill: var(--secondary-white-color);
 }
