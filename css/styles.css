@@ -247,6 +247,16 @@ p {
 .title-main-pa {
   background-color: var(--primary-black-color);
   padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/office.jpg);
+  background-position: center;
+  background-size: cover;
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .title-h {
   font-size: 56px;
