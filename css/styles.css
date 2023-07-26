@@ -366,6 +366,9 @@ p {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   max-height: 428px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .cont {
   padding: 32px 0;
@@ -408,7 +411,6 @@ p {
   color: var(--secondary-white-color);
   letter-spacing: 0.02em;
   max-width: 264px;
-  margin-right: 156px;
 }
 .sec-five {
   padding-top: 120px;
@@ -480,7 +482,7 @@ p {
 .border-svg {
   border-radius: 4px;
   border: 1px solid var(--lightslate, #8e8f99);
-  width: 168px;
+  width: calc((100% - 120px) / 6);
   height: 88px;
 }
 .svg-tranformers {
@@ -503,5 +505,40 @@ p {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
-.svg-workers-div {
+.text-footer-two {
+  color: var(--primary-white-color);
+  font-family: var(--primary-font);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  margin-bottom: 16px;
+}
+.footer-svg {
+  width: 40px;
+  height: 40px;
+}
+.footer-svg-text {
+  display: flex;
+  align-items: baseline;
+}
+.text-foot-logo {
+  margin-right: 120px;
+}
+.footer-svg-two {
+  display: flex;
+  gap: 16px;
+}
+.svg-url {
+  height: 100%;
+  width: 100%;
+  background-color: var(--primary-accent-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-size {
+  margin-left: 0;
 }
