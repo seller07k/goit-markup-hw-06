@@ -533,6 +533,11 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.svg-url:hover,
+.svg-url:focus {
+  background-color: #31d0aa;
 }
 .footer-size {
   margin-left: 0;
@@ -557,4 +562,7 @@ p {
 .partners:focus {
   border-color: var(--active-link-color);
   color: var(--active-link-color);
+}
+.fill-footer {
+  fill: var(--secondary-white-color);
 }
