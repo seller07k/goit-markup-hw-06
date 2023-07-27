@@ -656,7 +656,7 @@ p {
 .svg-modal {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.but-hov:hover,
-.but-hov:focus {
+.but-hov:hover::after,
+.but-hov:focus::after {
   fill: #ffffff;
 }
