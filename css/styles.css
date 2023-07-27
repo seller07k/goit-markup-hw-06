@@ -648,7 +648,7 @@ p {
 }
 .button-modal:hover,
 .button-modal:focus {
-  background-color: var(--active-link-color);
+  background-color: #404bbf;
   border: none;
 }
 .svg-modal {
@@ -656,5 +656,5 @@ p {
 }
 .but-hov:hover,
 .but-hov:focus {
-  fill: var(--primary-white-color);
+  fill: #ffffff;
 }
