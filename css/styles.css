@@ -486,7 +486,6 @@ p {
 .svg-transform-lii {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .svg-trans {
   width: 100%;
@@ -524,6 +523,7 @@ p {
   margin-right: 32px;
   margin-bottom: 16px;
   fill: var(--secondary-white-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .text-five-sec {
   color: var(--primary-black-color);
