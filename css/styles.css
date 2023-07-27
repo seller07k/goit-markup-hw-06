@@ -481,6 +481,7 @@ p {
   align-items: center;
   justify-content: center;
   display: flex;
+  margin-bottom: 8px;
 }
 .svg-transform-lii {
   width: 40px;
