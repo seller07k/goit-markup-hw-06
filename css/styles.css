@@ -480,6 +480,7 @@ p {
   gap: 24px;
 }
 .svg-tranformers {
+  fill: currentColor;
   max-width: 104px;
   max-height: 56px;
   margin-top: 16px;
@@ -505,7 +506,7 @@ p {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.11;
   letter-spacing: 0.32px;
   margin-bottom: 16px;
 }
@@ -549,6 +550,8 @@ p {
   align-items: center;
   justify-content: center;
   color: #8e8f99;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .partners:hover,
 .partners:focus {
