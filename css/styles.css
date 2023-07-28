@@ -381,6 +381,7 @@ p {
   letter-spacing: 0.02em;
   color: var(--secondary-accent-color);
   text-align: center;
+  margin-bottom: 8px;
 }
 .title-ht-t {
   font-size: 36px;
@@ -539,13 +540,6 @@ p {
 }
 .svg-tranformers {
   fill: currentColor;
-  max-width: 104px;
-  max-height: 56px;
-  margin-top: 16px;
-  margin-left: 32px;
-  margin-right: 32px;
-  margin-bottom: 16px;
-  fill: currentColor;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .text-five-sec {
@@ -605,6 +599,10 @@ p {
 .border-svg {
   height: 88px;
   width: calc((100% - 120px) / 6);
+  color: #8e8f99;
+}
+.border-svg:hover, .border-svg:focus {
+  fill: var(--active-link-color)
 }
 .partners {
   border-radius: 4px;
@@ -682,4 +680,7 @@ p {
 .but-hov:hover::after,
 .but-hov:focus::after {
   fill: #ffffff;
+}
+.box::after {
+  content'';
 }
