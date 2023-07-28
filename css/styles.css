@@ -281,10 +281,10 @@ p {
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.menu-main::after {
+.menu-main:hover::before,
+.menu-main:focus::after {
   content: "";
   position: absolute;
-  left: 0;
   bottom: -1px;
   height: 4px;
   background-color: var(--active-link-color);
@@ -539,7 +539,7 @@ p {
   gap: 24px;
 }
 .svg-tranformers {
-  fill: currentColor;
+  fill: var(--secondary-white-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .text-five-sec {
@@ -599,10 +599,6 @@ p {
 .border-svg {
   height: 88px;
   width: calc((100% - 120px) / 6);
-  color: #8e8f99;
-}
-.border-svg:hover, .border-svg:focus {
-  fill: var(--active-link-color)
 }
 .partners {
   border-radius: 4px;
@@ -613,6 +609,7 @@ p {
   align-items: center;
   justify-content: center;
   color: #8e8f99;
+  fill: #8e8f99;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -620,6 +617,7 @@ p {
 .partners:focus {
   border-color: var(--active-link-color);
   color: var(--active-link-color);
+  fill: var(--active-link-color);
 }
 .fill-footer {
   fill: var(--secondary-white-color);
@@ -676,11 +674,4 @@ p {
 }
 .svg-modal {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.but-hov:hover::after,
-.but-hov:focus::after {
-  fill: #ffffff;
-}
-.box::after {
-  content'';
 }
