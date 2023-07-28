@@ -290,9 +290,14 @@ p {
   background-color: var(--active-link-color);
   border-radius: 2px;
 }
-.menu-main:hover,
-.menu-main:focus {
-  color: var(--active-link-color);
+.menu-main::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: var(--active-link-color);
+  border-radius: 2px;
 }
 .title-main-pa {
   background-color: var(--primary-black-color);
