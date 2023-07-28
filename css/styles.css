@@ -674,6 +674,7 @@ p {
 }
 .button-modal:hover,
 .button-modal:focus {
+  fill: var(--active-link-color);
   background-color: #404bbf;
   border: none;
 }
