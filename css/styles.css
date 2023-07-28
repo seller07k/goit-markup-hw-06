@@ -526,7 +526,9 @@ p {
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.svg-trans:hover,
+.svg-trans:hover {
+  background-color: var(--active-link-color);
+}
 .svg-trans:focus {
   background-color: var(--active-link-color);
 }
