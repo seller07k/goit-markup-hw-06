@@ -456,7 +456,9 @@
           </svg>
         </button>
         <div class="ram-module">
-          <p class="hero-text-module"></p>
+          <p class="hero-text-module">
+            Leave your contacts and we will call you back
+          </p>
           <form>
             <div class="hero-form-main">
               <label for="user-name" class="hero-label-module"
@@ -491,43 +493,46 @@
               </label>
             </div>
             <div class="hero-form-main">
-              <label for="user-email" class="hero-label-module"
-                >Email
-                <div class="hero-module-rect">
-                  <input
-                    id="user-email"
-                    name="user-email"
-                    type="text"
-                    class="hero-input-text"
-                  />
-                  <svg width="18" height="24" class="hero-svg-module">
-                    <use href="./images/icons.svg#icon-module-four"></use>
-                  </svg>
-                </div>
-              </label>
+              <label for="user-email" class="hero-label-module">Email</label>
+              <div class="hero-module-rect">
+                <input
+                  id="user-email"
+                  name="user-email"
+                  type="text"
+                  class="hero-input-text"
+                />
+                <svg width="18" height="24" class="hero-svg-module">
+                  <use href="./images/icons.svg#icon-module-four"></use>
+                </svg>
+              </div>
             </div>
             <div class="hero-form-main">
-              <label for="user-privacy" class="hero-label-module"
-                >Comment<textarea
-                  id="user-comment"
-                  name="user-comment"
-                  class="textarea-module"
-                  placeholder="Text input"
-                >
-                </textarea>
-              </label>
+              <label for="user-privacy" class="hero-label-module">Comment</label
+              ><textarea
+                id="user-comment"
+                name="user-comment"
+                class="textarea-module"
+                placeholder="Text input"
+              >
+              </textarea>
             </div>
             <div class="module-five">
+              <input
+                id="user-privacy"
+                type="checkbox"
+                value="true"
+                name="user-privacy"
+                class="input-five-lol visually-hidden"
+              />
               <label for="user-privacy" class="label-five"
+                ><span class="label-span"
+                  ><svg width="10" height="8">
+                    <use
+                      href="./images/icons.svg#icon-Vector-2"
+                    ></use></svg></span
                 >I accept the terms and conditions of the
-                <input
-                  id="user-privacy"
-                  type="checkbox"
-                  value="true"
-                  name="user-privacy"
-                  class="visually-hidden"
-                />
-              </label>
+                <a class="privacy-module" href="#">Privacy Policy</a></label
+              >
             </div>
           </form>
         </div>
