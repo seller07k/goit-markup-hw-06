@@ -3,6 +3,11 @@ body {
   color: var(--secondary-accent-color);
   background-color: var(--primary-white-color);
 }
+@media screen and (min-width: 320px) {
+  body {
+    overflow-x: hidden;
+  }
+}
 :root {
   --primary-font: "Roboto", sans-serif;
   --title-font: "Raleway", sans-serif;
