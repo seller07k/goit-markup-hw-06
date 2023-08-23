@@ -275,9 +275,6 @@
   .flex {
     justify-content: flex-start;
   }
-  .header {
-    height: 72px;
-  }
   .element {
     flex-basis: calc((100% - 10px) / 2);
   }
@@ -446,7 +443,6 @@
   .address-navig {
     display: flex;
     gap: 40px;
-    margin-left: 332px;
   }
   .logo-main {
     margin-bottom: 25.5px;
@@ -484,5 +480,6 @@
   }
   .address {
     display: flex;
+    margin-left: auto;
   }
 }
