@@ -2,10 +2,37 @@
   .container {
     max-width: 320px;
   }
+  .header {
+    height: 70px;
+  }
   .maill-tell {
     display: none;
   }
   .hero-list-navigation {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+  .hero-list-navigation {
+    display: none;
+  }
+  .menu-main {
+    display: none;
+  }
+  .menu-main-index {
+    display: none;
+  }
+  .menu-main-index::after {
+    display: none;
+  }
+  .address {
+    display: none;
+  }
+  .address-navig {
+    display: none;
+  }
+  .maill-tell {
     display: none;
   }
 }
