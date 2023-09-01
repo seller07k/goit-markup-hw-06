@@ -730,9 +730,6 @@
     display: flex;
     gap: 40px;
   }
-  .logo-main {
-    margin-bottom: 25.5px;
-  }
   .mobile-menu {
     display: none;
   }

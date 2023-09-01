@@ -64,9 +64,7 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-accent-color);
-  margin-top: 25.5px;
   margin-right: 76px;
-  align-items: center;
 }
 .hero-list-navigation {
   display: flex;
@@ -658,7 +656,7 @@ p {
   border-color: var(--primary-accent-color);
 }
 .module-checkbox {
-  margin-bottom: 24px;
+  margin-bottom: 8px;
 }
 .input-checkbox:checked + .label-checkbox .label-checkbox-span {
   background-color: var(--active-link-color);
