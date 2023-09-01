@@ -325,7 +325,7 @@
   .open-menu {
     border-color: transparent;
     background-color: var(--white-color);
-    margin-left: 249px;
+    margin-left: auto;
   }
   .close-menu {
     display: block;
@@ -551,7 +551,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1157px) {
+@media screen and (min-width: 768px) and (max-width: 1157px) {
   .container {
     max-width: 768px;
     flex-direction: row;
@@ -581,9 +581,11 @@
   .section-three {
     display: none;
   }
+  .address {
+    margin-left: auto;
+  }
   .address-navig {
     display: flex;
-    margin-left: 123px;
     flex-wrap: wrap;
     width: 119px;
     height: 14px;
