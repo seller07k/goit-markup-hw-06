@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 427px) {
+@media screen and (max-width: 427px) {
   .container {
     max-width: 320px;
   }
@@ -48,31 +48,27 @@
     margin: 0 auto;
   }
   .text-footer-logo {
-    margin-right: 0;
+    margin: 0 auto;
+    margin-bottom: 72px;
   }
   .text-footer {
     max-width: 268px;
     margin: 0 auto;
   }
-  .logo-back-footer {
-    margin: 0 auto;
-  }
   .hero-logo-footer {
     margin-right: 0;
-    margin-left: 85px;
-  }
-  .text-footer {
-    margin-bottom: 72px;
   }
   .text-footer-two {
-    margin-left: 95px;
+    text-align: center;
   }
   .hero-footer-list {
     justify-content: center;
+  }
+  .footer-size {
     margin-bottom: 72px;
   }
   .paragraph-footer {
-    margin-left: 105px;
+    text-align: center;
   }
   .hero-module-footer {
     margin-left: 0;
@@ -258,6 +254,8 @@
   }
   .hero-list-section-two {
     text-align: center;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     gap: 72px;
   }
@@ -267,7 +265,7 @@
     letter-spacing: 0.02em;
     color: var(--secondary-accent-color);
     width: 290px;
-    margin-bottom: 72px;
+    font-weight: 500;
     color: var(--secondary-accent-color);
   }
   .title-section-two {
@@ -513,31 +511,27 @@
     margin: 0;
   }
   .text-footer-logo {
-    margin-right: 0;
+    margin: 0 auto;
+    margin-bottom: 72px;
   }
   .text-footer {
     max-width: 268px;
     margin: 0 auto;
   }
-  .logo-back-footer {
-    margin: 0 auto;
-  }
   .hero-logo-footer {
     margin-right: 0;
-    margin-left: 140.12px;
-  }
-  .text-footer {
-    margin-bottom: 72px;
   }
   .text-footer-two {
-    margin-left: 151px;
+    text-align: center;
+  }
+  .footer-size {
+    margin-bottom: 72px;
   }
   .hero-footer-list {
     justify-content: center;
-    margin-bottom: 72px;
   }
   .paragraph-footer {
-    margin-left: 161px;
+    text-align: center;
   }
   .hero-module-footer {
     margin-left: 0;
@@ -589,7 +583,8 @@
     flex-wrap: wrap;
     width: 119px;
     height: 14px;
-    margin-bottom: 16px;
+    gap: 12px;
+    align-content: space-around;
   }
   .maill-tell {
     font-size: 12px;
