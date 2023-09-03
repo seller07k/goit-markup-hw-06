@@ -57,7 +57,8 @@
     margin: 0 auto;
   }
   .hero-logo-footer {
-    margin-right: 0;
+    display: flex;
+    justify-content: center;
   }
   .logo-main {
     padding-top: 25.5px;
@@ -82,6 +83,8 @@
     width: 290px;
     margin-bottom: 16px;
   }
+  .hero-label-email {
+  }
   .hero-button-footer {
     margin-left: 60px;
   }
@@ -98,7 +101,7 @@
   }
   .hero-list-section-four {
     width: 264px;
-    margin-left: 13px;
+    margin: 0 auto;
     display: flex;
     gap: 72px;
     flex-direction: column;
@@ -260,10 +263,8 @@
     display: none;
   }
   .hero-list-section-two {
-    text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 72px;
   }
   .text-section-two {
@@ -279,6 +280,7 @@
     text-align: center;
     text-align: center;
     font-size: 30px;
+    font-weight: 700;
     line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
@@ -293,6 +295,16 @@
     min-width: 135px;
     height: 45px;
     font-size: 14px;
+  }
+  .container-section-five-media {
+    max-width: 584px;
+    padding: 0 16px;
+    margin: 0 auto;
+  }
+  .container-section-four-media {
+    max-width: 584px;
+    padding: 0 16px;
+    margin: 0 auto;
   }
 }
 @media screen and (min-width: 428px) and (max-width: 767px) {
@@ -463,20 +475,19 @@
     display: none;
   }
   .hero-list-section-two {
-    text-align: center;
-    justify-content: center;
-    width: 396px;
+    display: flex;
+    flex-direction: column;
     gap: 72px;
   }
   .text-section-two {
     text-align: left;
-    margin-bottom: 72px;
     font-weight: 500;
   }
   .title-section-two {
     text-align: center;
     font-size: 36px;
     line-height: 40px;
+    font-weight: 700;
     letter-spacing: 0.72px;
     text-transform: capitalize;
   }
@@ -492,7 +503,7 @@
   }
   .hero-list-section-four {
     width: 264px;
-    margin-left: 67px;
+    margin: 0 auto;
     display: flex;
     gap: 72px;
     flex-direction: column;
@@ -528,7 +539,8 @@
     margin: 0 auto;
   }
   .hero-logo-footer {
-    margin-right: 0;
+    display: flex;
+    justify-content: center;
   }
   .text-footer-two {
     text-align: center;
@@ -552,12 +564,21 @@
   .hero-button-footer {
     margin-left: 116px;
   }
+  .container-section-five-media {
+    max-width: 584px;
+    padding: 0 16px;
+    margin: 0 auto;
+  }
+  .container-section-four-media {
+    max-width: 584px;
+    padding: 0 16px;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
   .container {
     max-width: 768px;
-    flex-direction: row;
     padding: 0 16px;
   }
   .flex {
@@ -567,7 +588,11 @@
     flex-basis: calc((100% - 10px) / 2);
   }
   .section-four {
+    margin: 0 auto;
+  }
+  .container-section-four-media {
     max-width: 584px;
+    padding: 0 16px;
     margin: 0 auto;
   }
   /*
@@ -593,12 +618,10 @@
     margin-left: auto;
   }
   .address-navig {
-    display: flex;
-    flex-wrap: wrap;
-    width: 119px;
-    height: 14px;
-    gap: 12px;
-    align-content: space-around;
+    display: block;
+  }
+  .margin-address {
+    margin-bottom: 12px;
   }
   .maill-tell {
     font-size: 12px;
@@ -655,6 +678,7 @@
     font-weight: 500;
     font-size: 36px;
     line-height: 40px;
+    font-weight: 700;
     letter-spacing: 0.72px;
     color: var(--primary-black-color);
     margin-bottom: 8px;
@@ -681,7 +705,10 @@
   .section-five {
     padding-top: 96px;
     padding-bottom: 96px;
+  }
+  .container-section-five-media {
     max-width: 584px;
+    padding: 0 16px;
     margin: 0 auto;
   }
   .hero-list-section-five {
@@ -729,7 +756,7 @@
     padding: 112px 0;
   }
 }
-@media screen and (min-width: 1158px) and (max-width: 10000px) {
+@media screen and (min-width: 1158px) {
   .hero-list-section-two {
     display: flex;
   }
@@ -739,7 +766,7 @@
   .container {
     max-width: 1158px;
     margin: 0 auto;
-    padding: 0 16px;
+    padding: 0 15px;
   }
   .address-navig {
     display: flex;
